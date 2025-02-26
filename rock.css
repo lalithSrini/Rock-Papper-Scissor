@@ -1,0 +1,14 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #bf7633 ;
+    color: rgb(251, 250, 250);
+    text-align: center;
+}
+h1
+{
+    background-color: #051d38;
+    height: 5rem;
+    line-height: 5rem;
+}
