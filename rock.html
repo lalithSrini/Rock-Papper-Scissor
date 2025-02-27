@@ -7,16 +7,16 @@
     <link rel = "stylesheet" href="rock.css">
 </head>
 <body>
-    <h1>Rock Papper Scissors</h1>
+    <h1>Rock - Paper - Scissors</h1>
 
     <div class="choices">
         <div class="choise" id="rock">
             <img src="rock.webp">
         </div>
-        <div class="choise" id="papper">
+        <div class="choise" id="paper">
             <img src="papper.webp">
         </div>  
-        <div class="choise" id="scissor">
+        <div class="choise" id="scissors">
             <img src="scissor.webp">
         </div>       
     </div>
@@ -25,11 +25,11 @@
     <div class="scoreboard">
         <div class="score">
             <p id="userscore">0</p>
-            <p>User</p>
+            <p>User <img src="user.png" alt="Description" style="height: 2rem;width: 2rem; vertical-align: middle;"></p>
         </div>
         <div class="score">
             <p id="compscore">0</p>
-            <p>Comp</p>
+            <p>AI <img src="comp.png" alt="Description" style="height: 2rem;width: 2rem; vertical-align: middle;"></p>
         </div>
     </div>
     
@@ -37,6 +37,9 @@
         <p id="msg">Click img to Play</p>
     </div>
 
+    <div class="reset">
+        <p id="res">Reset or New Game</p>
+    </div>
     <script src="rock.js"></script>
 </body>
 </html>
